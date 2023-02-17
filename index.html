@@ -25,6 +25,30 @@
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4140095596504723"
                  crossorigin="anonymous"></script>
 
+		<script type="module">
+	  // Import the functions you need from the SDKs you need
+	  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+	  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+	  // TODO: Add SDKs for Firebase products that you want to use
+	  // https://firebase.google.com/docs/web/setup#available-libraries
+
+	  // Your web app's Firebase configuration
+	  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+	  const firebaseConfig = {
+		apiKey: "AIzaSyAS7fojXxwwpSlTF5ZgAtFKY9j-9teo95M",
+		authDomain: "ace-my-pace.firebaseapp.com",
+		projectId: "ace-my-pace",
+		storageBucket: "ace-my-pace.appspot.com",
+		messagingSenderId: "836287976733",
+		appId: "1:836287976733:web:8bf0659fbc477e4c12bdf4",
+		measurementId: "G-HLEYM0BBMD"
+	  };
+
+	  // Initialize Firebase
+	  const app = initializeApp(firebaseConfig);
+	  const analytics = getAnalytics(app);
+	</script>
+
         <style>
 
             body {
